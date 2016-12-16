@@ -1,0 +1,131 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection*
+MEEn 537
+\end_layout
+
+\begin_layout Standard
+Craig Bidstrup, Jae Lee
+\end_layout
+
+\begin_layout Paragraph
+Objectives that would define success
+\end_layout
+
+\begin_layout Standard
+One arm of Baxter successfully track and reach close enough to a participant's
+ hand to handshake.
+ Be able to follow the participant's hand motion.
+\end_layout
+
+\begin_layout Paragraph
+Pitfalls or concerns
+\end_layout
+
+\begin_layout Standard
+We will have to figure out how to use Baxter's head camera to guide the
+ arm so that the target is in the field of view of the wrist camera.
+ We are concerned that distance from the wrist camera to a participant's
+ hand will be difficult to discern.
+ Another unknown is a good motion planning algorithm to get the wrist from
+ its current position to the target position without undesireable motions.
+\end_layout
+
+\begin_layout Paragraph
+Timeline and role
+\end_layout
+
+\begin_layout Enumerate
+OpenTLD using ROS - Nov 15(Jae)
+\end_layout
+
+\begin_layout Enumerate
+Working Gazebo simulation of Baxter - Nov 15(Craig)
+\end_layout
+
+\begin_layout Enumerate
+Implement motion planning algorithm - Nov 17(Craig, Jae) 
+\end_layout
+
+\begin_layout Enumerate
+Integrate OpenTLD with Gazebo - Nov 22(Craig, Jae)
+\end_layout
+
+\begin_layout Enumerate
+Migrate to the Real Baxter - Dec 1(Craig, Jae)
+\end_layout
+
+\begin_layout Enumerate
+Generate report and presentation - Dec 5(Craig, Jae)
+\end_layout
+
+\end_body
+\end_document

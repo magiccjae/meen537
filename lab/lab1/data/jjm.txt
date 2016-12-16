@@ -1,0 +1,229 @@
+Part 1
+
+go to position 1 using the wrist button on baxter ...
+joint angles are: 	[ 0.03298059 -0.29260684  0.20977187  0.15416507  0.31791752 -0.21935925
+  0.17487381]
+end effector position is: 	[ 0.75331174  1.01840968  0.54605125]
+end effector orientation is: 	[[-0.26592043 -0.66288777  0.69990437]
+ [ 0.65199425  0.41111746  0.63709178]
+ [-0.71006325  0.62574935  0.32287448]] 
+
+
+
+go to position 2 using the wrist button on baxter ...
+joint angles are: 	[-0.91501954 -0.68760689  0.18829614  1.62640313 -1.24290793  1.17502928
+  0.15071361]
+end effector position is: 	[ 0.67430063  0.07197202  0.12744852]
+end effector orientation is: 	[[-0.75967965 -0.6501473  -0.0139756 ]
+ [-0.38611501  0.46824941 -0.79476895]
+ [ 0.52326096 -0.59837361 -0.60675118]] 
+
+
+
+go to position 3 using the wrist button on baxter ...
+joint angles are: 	[ 0.57179134 -0.97100984  0.57102435 -0.05062137  1.69734974 -1.57386429
+  0.50161172]
+end effector position is: 	[ 0.33647375  0.8531483   0.89411835]
+end effector orientation is: 	[[ 0.35928695  0.36130556  0.86044824]
+ [ 0.07546017 -0.93024221  0.35910333]
+ [ 0.9301713  -0.06409157 -0.36148806]] 
+
+
+
+go to position 4 using the wrist button on baxter ...
+joint angles are: 	[ 0.52423793 -1.4216167   0.66996611  0.03950001 -2.58207316  0.54417968
+ -2.85397126]
+end effector position is: 	[ 0.18812385  0.47288572  1.31263478]
+end effector orientation is: 	[[-0.82678977 -0.34015794  0.4480081 ]
+ [ 0.31518759 -0.93981851 -0.13190131]
+ [ 0.46591358  0.03215194  0.88424589]] 
+
+Part 2
+
+a)
+
+ commanded limb.set_joint_positions_mod([-.9, -.2, 0, 1, -1.7, 0.3, -3])
+
+
+move to your desired position and push enter ...
+for test number 00:
+joint angles are: 	[ -9.05432160e-01  -2.02868959e-01   1.15048559e-03   1.00399043e+00
+  -1.70233518e+00   2.94524311e-01  -3.00660234e+00]
+end effector position is: 	[ 0.90925576  0.08253167 -0.02586644]
+end effector orientation is: 	[[ 0.31718006  0.68676281  0.65402879]
+ [ 0.9268304  -0.07834127 -0.36721663]
+ [-0.20095328  0.72264755 -0.66136094]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 01:
+joint angles are: 	[ -9.05048665e-01  -2.02101969e-01   3.83495197e-04   1.00283994e+00
+  -1.70233518e+00   2.94524311e-01  -3.00583535e+00]
+end effector position is: 	[ 0.90942481  0.08240762 -0.02593287]
+end effector orientation is: 	[[ 0.31755242  0.68632595  0.65430662]
+ [ 0.92668436 -0.0783228  -0.36758896]
+ [-0.20103872  0.72306447 -0.66087912]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 02:
+joint angles are: 	[-0.90428167 -0.20325245  0.          1.00283994 -1.70233518  0.29452431
+ -3.00621885]
+end effector position is: 	[ 0.91000208  0.08278823 -0.02499474]
+end effector orientation is: 	[[ 0.31686889  0.68570719  0.65528601]
+ [ 0.9268318  -0.07712635 -0.36747019]
+ [-0.20143714  0.72377978 -0.65997417]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 03:
+joint angles are: 	[ -9.04281674e-01  -2.01718474e-01  -3.83495197e-04   1.00207295e+00
+  -1.70233518e+00   2.94907806e-01  -3.00698584e+00]
+end effector position is: 	[ 0.90963999  0.08252742 -0.02583103]
+end effector orientation is: 	[[ 0.31650088  0.68649294  0.65464084]
+ [ 0.92666881 -0.07624438 -0.36806482]
+ [-0.20276122  0.72312809 -0.66028301]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 04:
+joint angles are: 	[ -9.05432160e-01  -2.02101969e-01   3.83495197e-04   1.00322344e+00
+  -1.70271867e+00   2.95674797e-01  -3.00660234e+00]
+end effector position is: 	[ 0.90915995  0.0818582  -0.02599458]
+end effector orientation is: 	[[ 0.31778862  0.68675734  0.65373905]
+ [ 0.92624545 -0.07747011 -0.36887363]
+ [-0.20268144  0.72274666 -0.66072498]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 05:
+joint angles are: 	[ -9.05048665e-01  -2.02101969e-01   7.66990394e-04   1.00283994e+00
+  -1.70195168e+00   2.94524311e-01  -3.00621885e+00]
+end effector position is: 	[ 0.90943463  0.08262043 -0.0259819 ]
+end effector orientation is: 	[[ 0.31748878  0.68637768  0.65428324]
+ [ 0.9267794  -0.07856532 -0.36729748]
+ [-0.20070082  0.72298906 -0.6610643 ]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 06:
+joint angles are: 	[ -9.06199150e-01  -2.01718474e-01   7.66990394e-04   1.00360693e+00
+  -1.70271867e+00   2.95291302e-01  -3.00583535e+00]
+end effector position is: 	[ 0.90875722  0.08154282 -0.02651281]
+end effector orientation is: 	[[ 0.31856281  0.68701067  0.65309576]
+ [ 0.92619904 -0.07900872 -0.36866375]
+ [-0.20167567  0.72233923 -0.66147786]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 07:
+joint angles are: 	[ -9.06199150e-01  -2.02485464e-01  -7.66990394e-04   1.00245644e+00
+  -1.70195168e+00   2.95291302e-01  -3.00583535e+00]
+end effector position is: 	[ 0.90938499  0.08059053 -0.02534755]
+end effector orientation is: 	[[ 0.31971564  0.68564848  0.65396335]
+ [ 0.92568609 -0.078735   -0.37000818]
+ [-0.20220574  0.72366218 -0.65986808]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 08:
+joint angles are: 	[ -9.04281674e-01  -2.02101969e-01  -7.66990394e-04   1.00245644e+00
+  -1.70118469e+00   2.94524311e-01  -3.00698584e+00]
+end effector position is: 	[ 0.9095629   0.08239114 -0.02574679]
+end effector orientation is: 	[[ 0.31709946  0.68642023  0.65442739]
+ [ 0.92660787 -0.07718809 -0.36802155]
+ [-0.20210343  0.723097   -0.66051868]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 09:
+joint angles are: 	[ -9.05048665e-01  -2.01718474e-01  -7.66990394e-04   1.00437392e+00
+  -1.70233518e+00   2.95674797e-01  -3.00698584e+00]
+end effector position is: 	[ 0.90847444  0.08161211 -0.02671442]
+end effector orientation is: 	[[ 0.31731004  0.68804232  0.65261942]
+ [ 0.92609819 -0.07671311 -0.36940119]
+ [-0.20409918  0.72160437 -0.66153659]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+
+
+b
+
+limb.set_joint_positions_mod([0.4, 0.85, -0.36, -0.27, 0.92, 0.19, 0.22])
+
+
+array([ 0.31075273,  0.89777945, -0.3594531 , -0.22908325,  0.91439731,
+        0.29857434,  0.1491703 ])
+
+
+move to your desired position and push enter ...
+for test number 00:
+joint angles are: 	[ 0.39845151  0.80303894 -0.35818451 -0.0479369   0.91962148  0.16528643
+  0.17985925]
+end effector position is: 	[ 0.30912692  0.89575051 -0.36157687]
+end effector orientation is: 	[[-0.85189156 -0.5060973   0.13470819]
+ [-0.3301402   0.71861817  0.61204198]
+ [-0.40655654  0.47692081 -0.77926781]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 01:
+joint angles are: 	[ 0.398835    0.80418943 -0.35818451 -0.04716991  0.92153896  0.16451944
+  0.17947575]
+end effector position is: 	[ 0.30820304  0.89439371 -0.36292843]
+end effector orientation is: 	[[-0.85269594 -0.50490533  0.13409044]
+ [-0.33014575  0.71974754  0.61071045]
+ [-0.40486223  0.47648093 -0.78041816]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 02:
+joint angles are: 	[ 0.39845151  0.80342244 -0.35818451 -0.0475534   0.92000498  0.16375245
+  0.17947575]
+end effector position is: 	[ 0.30928666  0.89548047 -0.36178352]
+end effector orientation is: 	[[-0.85179376 -0.5059905   0.13572397]
+ [-0.32944293  0.71880336  0.6122002 ]
+ [-0.40732633  0.47675501 -0.77896722]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 03:
+joint angles are: 	[ 0.398835    0.80188846 -0.35818451 -0.0479369   0.92038847  0.16528643
+  0.18024274]
+end effector position is: 	[ 0.30918218  0.89666814 -0.36085613]
+end effector orientation is: 	[[-0.85216993 -0.50562335  0.13472725]
+ [-0.32922722  0.71821487  0.6130064 ]
+ [-0.40671346  0.47802974 -0.77850609]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+for test number 04:
+joint angles are: 	[ 0.398835    0.80495642 -0.35818451 -0.0479369   0.92000498  0.16490293
+  0.17947575]
+end effector position is: 	[ 0.30839593  0.89456221 -0.36270132]
+end effector orientation is: 	[[-0.85200472 -0.50605304  0.13415767]
+ [-0.33096958  0.71918871  0.61092286]
+ [-0.40564405  0.47610706 -0.78024033]] 
+
+
+
+measure the vertical direction and then push enter when ready for the next cycle ...
+
+
+
+
